@@ -1,0 +1,36 @@
+.content{
+	width: 80%;
+	margin: 0 auto;
+	height: auto;
+	box-shadow: 0px 0px 2px #000000;
+	padding-bottom: 40px;
+}
+
+.content button{
+	font-size: 14px;
+}
+
+h5{
+	background-color: #f39c12;
+	padding: 7px 14px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.btn-group{
+	margin-left: 10px;
+}
+
+
+@media(max-width: 768px){
+	.content{
+		width: 100%;
+		}
+	.content .input{
+		width:100%;
+		margin-top: -10px;
+		}
+	
+	}
+}
+

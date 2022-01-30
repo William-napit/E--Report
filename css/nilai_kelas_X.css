@@ -1,0 +1,58 @@
+
+
+p{
+	background-color: blue;
+	padding: 2px 5px;
+	color: white;
+	width: 30%;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	border-radius: 2px
+}
+
+.content-nilai .header{
+	font-size: 18px;
+	padding: 7px 14px;
+	background-color: blue;
+	color: white
+}
+.content-nilai{
+	/*box-shadow: 0px 0px 2px #000000;*/
+	margin: 10px 10px;
+	padding-bottom: 5px;
+}
+/*.content-isi{
+	margin: 0 10px;
+}*/
+.content-nilai .content-isi table tbody td{
+	border : 1px solid;
+}
+.content-nilai .content-isi table thead th{
+	border : 1px solid;
+	border-color: black
+}
+table{
+	width: 100%;
+	border : 1px ;
+}
+th, td{
+	text-align: center;
+}
+thead th{
+	height: 50px;
+	background-color: blue;
+	color: white
+}
+table tbody td{
+	height: 30px
+}
+
+@media (max-width: 768px){
+	p{
+		width: 100%
+	}
+	.content-nilai .content-isi table thead th{
+		padding: 2px
+	}
+}

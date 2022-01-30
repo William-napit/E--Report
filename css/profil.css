@@ -1,0 +1,145 @@
+.accordion{
+	display: none;
+}
+.data{
+	display: none;
+}
+
+.accordion button{
+	width: 100%;
+	font-size: 18px;
+	padding: 10px;
+	text-align: left;
+	border : none;
+	background-color: #f39c12;
+}
+
+.accordion-header :hover{
+	background-color: #d35400;
+}
+
+.accordion-item  i {
+	font-size:  .8em;
+	
+
+}
+.data-umum{
+	
+	text-align: center;
+}
+.data-umum img{
+	width: 140px;
+	height: 170px;
+	margin-bottom: 20px
+}
+
+.data .keterangan {
+	text-align: center;
+}
+
+.data .keterangan h5 {
+	font-size: 18px;
+	font-weight: bold;
+
+}
+
+.data .keterangan p{
+	margin-top: -10px
+}
+.accordion .accordion-body{
+	text-align: center;
+}
+.accordion .accordion-body strong{
+	font-size: 18px;
+	text-align: center;
+}
+
+.accordion .accordion-body .detail{
+	left: 10px;
+	text-align: left;
+	margin-top: 20px;
+
+
+}
+
+.accordion-collapse {
+	transition: .3s
+}
+.accordion .accordion-body .detail h5, p{
+	font-size: 16px;
+}
+
+.accordion .accordion-body .detail h5{
+	color: #2980b9;
+	margin-left: -12px;
+	background-color: white;
+
+}
+.accordion .accordion-body .detail p{
+	margin-top: -10px
+}
+
+.accordion .accordion-body .detail .item{
+	margin-top: -10px
+}
+
+.content{
+	width: 80%;
+	margin: 0 auto;
+	height: auto;
+	box-shadow: 0px 0px 2px #000000;
+	padding-bottom: 40px;
+	
+}
+
+
+h5{
+	background-color: #f39c12;
+	padding: 7px 14px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+.content img{
+	width: 140px;
+	height: 170px;
+	
+}
+
+.content #data-content #satu{
+	width: 300px;
+	margin-left: 100px;
+	padding-left: 80px
+}
+
+.content #data-content #tiga{
+	padding-left: 50px
+}
+td{
+	/*border : 1px solid;*/
+	height: 35px;
+}
+
+.content #data-content table{
+	margin-left: 100px
+}
+
+
+.content{
+	display: block;
+}
+
+
+@media(max-width: 768px){
+	.accordion{
+		display: block;
+	}
+	.data {
+		display: block;
+	}
+	.content {
+		display: none;
+	}
+}

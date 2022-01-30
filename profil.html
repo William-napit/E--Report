@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>E-Report | Profil</title>
+
+	<!--bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	
+	<!-- Css -->
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/profil.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+
+	<!--font style -->
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+	
+</head>
+<body>
+	<!-- sidebar-->
+	<input type="checkbox" id="navbarNavDropdown" name="">
+	<div class="sidebar "  >
+          <ul class="navbar-nav"> 
+            <li class="nav-item dropdown d-sm-block d-md-none">
+             
+            	<a href="baru.html" class="list-group-item list-group-item-action  text-white">
+                    <span><i class="fas fa-home text-white"></i></span>
+                    <span class="menu-collapsed">Home</span>
+                </a>
+
+                <a href="#" class="list-group-item list-group-item-action  text-white">
+                    <span><i class="fas fa-newspaper text-white"></i></span>
+                    <span class="menu-collapsed">Berita</span>
+                </a>
+
+                <a href="profil.html" class="list-group-item list-group-item-action  text-white">
+                    <span><i class="fas fa-user text-white"></i></span>
+                    <span class="menu-collapsed">Profile</span>
+                </a>
+
+                <a href="#" class="list-group-item list-group-item-action  text-white">
+                    <span><i class="fas fa-clipboard-list text-white"></i></span>
+                    <span class="menu-collapsed">Absensi</span>
+                </a>
+
+                <a href="nilai.html" class="list-group-item list-group-item-action  text-white">
+                    <span><i class="fas fa-poll-h text-white"></i></span>
+                    <span class="menu-collapsed">Nilai</span>
+                </a>
+            </li>
+          </ul>
+        </div>
+	<!-- bagian header -->
+	<header>
+		<div class="container-title">
+			<h1><a href="baru.html">E-Report</a> </h1>
+			<ul>
+				<li><a href="baru.html">Home</a></li>
+				<li><a href="">Berita</a></li>
+				<li><a href="profil.html">Profil</a></li>
+				<li><a href="">Absensi</a></li>
+				<li><a href="nilai.html">Nilai</a></li>
+			</ul>
+      		<label for="navbarNavDropdown" class="mobile-menu"><i class="fas fa-bars"></i></label>
+   
+		</div>
+	</header>
+
+
+	<!-- Data umum -->
+	<div class="data">
+		<div class="data-umum text-align-center">
+			<img src="images/foto.JPG">
+		</div>
+		<div class="keterangan">
+			<h5>Nama/NIS</h5>
+			<p>William Daniel Napitupulu/18211399</p>
+			<h5>Kelas</h5>
+			<p>XI (Sebelas)</p>
+			<h5>Jurusan</h5>
+			<p>IPA (Ilmu Pengatahuan Alam)</p>
+			<h5>Wali Kelas</h5>
+			<p>Dr. Parlindungan Naipospos S.Pd</p>
+			
+		</div>
+	</div>
+
+	<!-- Bagian isi -->
+	<div class="accordion" id="accordionExample">
+	  <div class="accordion-item">
+	    <h3 class="accordion-header" id="headingOne">
+	      <button class="" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+	      	<i class="fas fa-plus"></i>
+	        Data Pribadi
+	      </button>
+	    </h3>
+	    <!-- tambahakan "show" pada clas supaya acoordion nya terbuka otomatis -->
+	    <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+	      <div class="accordion-body">
+	        <strong>Data Pribadi</strong>
+	        <div class="detail">
+	        	<div class="item">
+	        		<h5>Nama/NIS</h5>
+					<p>William Daniel Napitupulu/18211399</p>
+	        	</div>
+	        	<div class="item">
+	        		<h5>Tempat, Tanggal Lahir</h5>
+					<p>Balige, 09 Februari 1999</p>
+	        	</div>
+	        	<div class="item">
+	        		<h5>Jenis Kelamin</h5>
+					<p>Laki - Laki</p>
+	        	</div>
+	        	<div class="item">
+	        		<h5>Alamat / Kota / Kecamatan</h5>
+					<p>JL. Sutomo / Balige / Balige</p>
+	        	</div>
+	        	<div class="item">
+	        		<h5>Nomor Handphone</h5>
+					<p>082289444330</p>
+	        	</div>
+	        	<div class="item">
+	        		<h5>Nomor Handphone Orang Tua</h5>
+					<p>081394142028</p>
+	        	</div>
+	        	<div class="item">
+	        		<h5>Nama Ayah</h5>
+					<p>Darwin Napitupulu</p>
+	        	</div>
+	        	<div class="item">
+	        		<h5>Nama Ibu</h5>
+					<p>Bertha Siahaan</p>
+	        	</div>
+	        </div>
+	        <strong>Status Keaktifan</strong>
+	        <div class="detail">
+	        	<div class="item">
+	        		<h5>Status Akademis</h5>
+					<p>Aktif</p>
+	        	</div>
+	        </div>
+
+	      </div>
+	    </div>
+	  </div>
+	  <div class="accordion-item">
+	    <h3 class="accordion-header" id="headingTwo">
+	      <button class="" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+	      	<i class="fas fa-plus"></i>
+	        Data Keuangan
+	      </button>
+	    </h3>
+	    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+	      <div class="accordion-body">
+	        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+	      </div>
+	    </div>
+	  </div>
+	  <div class="accordion-item">
+	    <h3 class="accordion-header" id="headingThree">
+	      <button class="" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+	        <i class="fas fa-plus "></i>
+	        Lain
+	      </button>
+	    </h3>
+	    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+	      <div class="accordion-body">
+	        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- untuk tampilan besar -->
+	<div class="content">
+		<h5>Profil</h5>
+		<div id = "data-content">
+			<table>
+				<tr>
+					<td rowspan="5"><img src="images/foto.JPG"></td>
+				</tr>
+				<tr>
+					<td id="satu">Nama / NIS</td>
+					<td>&#58</td>
+					<td id="tiga">William Daniel Napitupulu</td>
+				</tr>
+				<tr>
+					<td id="satu">Kelas</td>
+					<td>&#58</td>
+					<td id="tiga">XI (Sebelas)</td>
+				</tr>
+				<tr>
+					<td id="satu">Jurusan</td>
+					<td>&#58</td>
+					<td id="tiga">IPA (Ilmu Pengetahuan Alam)</td>
+				</tr>
+				<tr>
+					<td id="satu">Wali Kelas</td>
+					<td>&#58</td>
+					<td id="tiga">Dr. Parlindungan Naipospos S.Pd</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+
+
+	
+
+
+
+
+	<!-- JavaScript Bundle with Popper utuk accordion -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

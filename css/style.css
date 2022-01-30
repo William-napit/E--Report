@@ -1,0 +1,63 @@
+*{padding: 0;
+margin: 0;
+font-family: 'Quicksand', sans-serif;
+color: #333;
+text-decoration: none;
+
+}
+header .container h1 a{
+	text-decoration: none;
+}
+
+header .container  ul li a{
+	text-decoration: none;
+}
+
+header{
+	height: 70px;
+	justify-content: center;
+	align-items: center;
+	border : 1px solid;
+
+}
+
+header h2{
+	float: left;
+	padding: 15px;
+	display: inline-block;
+	text-transform: uppercase;
+
+}
+
+ a{
+	color: black
+}
+
+header .container h1 a:hover{
+	color: red;
+	transition: .3s
+}
+
+header ul{
+	float: right;
+
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a:hover{
+	color: red;
+	transition: .3s
+}
+
+.container{
+	width: 90%;
+	margin: 0 auto;
+	
+
+.container::after{
+	content: '';
+	display : block;
+	clear: both;
+}
+

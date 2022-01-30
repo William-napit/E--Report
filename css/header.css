@@ -1,0 +1,170 @@
+
+*{padding: 0;
+margin: 0;
+/*font-family: comic sans MS;*/
+font-family: 'Quicksand', sans-serif;
+color: #333;
+text-decoration: none;
+
+}
+
+
+body{
+	
+	padding-top: 90px;
+	height: auto;
+	padding-bottom: 90px
+}
+header .container-title h1 a{
+	text-decoration: none;
+
+}
+
+header .container-title  ul li a{
+	text-decoration: none;
+}
+
+header{
+	height: 70px;
+	background-color: #f39c12;
+	box-shadow: 1px 1px 5px black;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 999;
+}
+
+header h1 {
+	float: left;
+	padding: 14px 24px;
+	display: inline-block;
+	
+	font-weight: 600;
+	font-size: 34px
+}
+header h1 a:hover {
+	color: #34495e;
+}
+
+header h1 a{
+	transition: .3s;
+}
+ .container-title a{
+	color: #333;
+}
+
+header ul{
+	float: right;
+
+}
+header ul li{
+	display: inline-block;
+	padding: 20px;
+	font-size: 20px;
+	
+
+
+}
+header ul li a:hover{
+	color: #34495e;
+	transition: .3s
+}
+
+.container-title{
+	width: 90%;
+	margin: 0 auto;
+	
+}
+
+.container-title::after{
+	content: '';
+	display : block;
+	clear: both;
+}
+
+label{
+	float: right;
+	display: none;
+}
+#navbarNavDropdown{
+	display: none;
+}
+.sidebar{
+	width: 300px;
+	left: -350px;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	z-index: 9999;
+	transition: .5s;
+	background-color: rgba(19, 15, 64,.9);
+	display: none;
+	z-index: 9999
+
+}
+
+#navbarNavDropdown:checked ~ .sidebar{
+	left: 0;
+}
+
+#navbarNavDropdown:checked ~ .sidebar ul li a{
+	left: 0;
+	transition: .7s
+}
+
+.sidebar ul li a{
+	background-color: rgba(19, 15, 64,.0);
+	transition: .5s;
+	text-decoration: none;
+	left: -400px;
+	box-shadow: .1px .1px .5px white;
+	padding: 20px
+
+}
+
+.sidebar ul li a span{
+color: #bdc3c7;
+padding: 5px;
+font-size: 14px;
+}
+
+
+.sidebar ul li a:hover{
+	background-color: #34495e
+}
+
+.mobile-menu{
+	display: none;
+}
+.mobile-menu:hover{
+	cursor: pointer;
+}
+
+.mobile-menu .fa-bars{
+	font-size : 25px;
+}
+
+
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+@media(max-width: 768px){
+	header ul{
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+		padding: 20px;
+	}
+	.sidebar{
+		display: block;
+	}
+	.container-title h1{
+		padding: 14px;
+	}
+		}
+}
